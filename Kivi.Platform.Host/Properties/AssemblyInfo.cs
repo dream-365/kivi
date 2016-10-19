@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Kivi.Platform.Host")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("host sdk for kivi package management")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Jeffrey Chen")]
 [assembly: AssemblyProduct("Kivi.Platform.Host")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]

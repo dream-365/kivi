@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Jeffrey Chen</authors>
+    <owners>Jeffrey Chen</owners>
+    <projectUrl>https://github.com/dream-365/kivi</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>sdk for kivi package development</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>package sandbox</tags>
+  </metadata>
+</package>
