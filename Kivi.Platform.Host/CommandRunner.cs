@@ -42,11 +42,9 @@ namespace Kivi.Platform.Host
             {
                 result = proxy.Run(_package, name, arguments);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 result = false;
-
-                throw ex;
             }
 
             AppDomain.Unload(domain);
