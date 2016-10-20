@@ -14,6 +14,13 @@ namespace Kivi.Packages.CLI
         {
             var parameters = Parameters.Parse(args);
 
+            if(parameters == null)
+            {
+                Console.WriteLine("kivi.packages.exe pack, dir");
+
+                return;
+            }
+
             var packageFile = Path.Combine(parameters.FolderPath, "package.json");
 
             var txt = File.ReadAllText(packageFile);
